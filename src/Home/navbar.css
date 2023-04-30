@@ -1,0 +1,141 @@
+.navbar {
+  width: 100%;
+  height: 90px;
+  background-image: linear-gradient(
+    120deg,
+    white 16%,
+    rgba(243, 193, 26, 1) 16%
+  );
+}
+.footerbg {
+  background-image: url("../pics/footersquare.png");
+}
+.bg {
+  background-image: url("../pics/bg.svg");
+  width: 100%;
+  height: 100%;
+}
+
+.hamburgermenu {
+  width: 15vw;
+  height: auto;
+  margin-left: 2.6vw;
+  margin-top: 35.5vh;
+  position: absolute;
+  background-color: white;
+  box-shadow: 0px 1px 15px 0px gray;
+}
+
+.homepage {
+  background-image: url("../pics/Header.png");
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.aboutusbg {
+  height: 270%;
+  width: 100%;
+
+  background-image: url("../mobilepics/mobileabout.jpg");
+}
+
+@media only screen and (max-width: 360px) {
+  .aboutusbg {
+    background-image: url("../mobilepics/mobileabout.jpg");
+  }
+  .navbar {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 768px) {
+  .homepage {
+    background-image: url("../pics/Header.png");
+  }
+
+  .aboutusbg {
+    background-image: url("../mobilepics/mobileabout.jpg");
+    height: 250%;
+  }
+  .navbar {
+    display: none;
+  }
+  .hamburgermenu {
+    width: 40vw;
+    height: auto;
+    margin-left: 45px;
+    margin-top: 36.5vh;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0px 1px 15px 0px gray;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .homepage {
+    background-image: url("../pics/Header.png");
+    height: 110vh;
+  }
+  .aboutusbg {
+    height: 200%;
+    background-image: url("../mobilepics/mobileabout.jpg");
+    background-size: cover;
+    border: solid;
+    margin-top: -111vh;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1280px) {
+  .homepage {
+    background-image: url("../pics/Header.png");
+    height: 100vh;
+  }
+  .aboutusbg {
+    background-image: url("../mobilepics/mobileabout.jpg");
+    height: 260%;
+  }
+}
+@media only screen and (min-width: 1280px) and (max-width: 1536px) {
+  .homepage {
+    background-image: url("../pics/Header.png");
+    height: 109vh;
+  }
+  .aboutusbg {
+    background-image: url("../mobilepics/mobileabout.jpg");
+    height: 230%;
+    background-size: cover;
+    margin-top: -96vh;
+  }
+}
+@media only screen and (min-width: 1536px) {
+  .homepage {
+    background-image: url("../pics/Header.png");
+    width: 100%;
+    height: 130vh;
+    background-size: cover;
+  }
+  .aboutusbg {
+    background-image: url("../mobilepics/mobileabout.jpg");
+    height: 250vh;
+    background-size: cover;
+    margin-top: -101vh;
+    width: 100%;
+  }
+  .hamburgermenu {
+    width: 20%;
+    height: auto;
+    margin-left: 2.8%;
+    margin-top: 430px;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0px 1px 15px 0px gray;
+  }
+  .navbar {
+    width: 100%;
+    height: 110px;
+    background-image: linear-gradient(
+      120deg,
+      white 15.5%,
+      rgba(243, 193, 26, 1) 15.5%
+    );
+  }
+}
